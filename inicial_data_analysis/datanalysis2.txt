@@ -1,0 +1,13 @@
+if one needs to change a document but doesnt want to change the
+original data ( which happenbs when assigning a new variable to it directly)
+i.e: data (var 1, data"base")
+section = data[something] -> changes made in section are going to be kept
+at data (original)
+to avoid it, 
+section = data[something].copy() | creating a copy makes it so that changes
+in section don't impact the original. 
+
+digitize -> sorting data in categories 
+i.e categories  = np.array([2,4,6,8])
+categories from 0-2, 2-4, 4-6, 6-8 
+(analyzes data from data to check which category it fits) 
